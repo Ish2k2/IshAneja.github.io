@@ -32,7 +32,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-        theme: jekyll-theme-minimal
         with:
           source: ./
           destination: ./_site
@@ -50,3 +49,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  theme: jekyll-theme-minimal
