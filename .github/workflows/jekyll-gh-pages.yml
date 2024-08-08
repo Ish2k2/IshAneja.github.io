@@ -50,4 +50,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  theme: jekyll-theme-minimal
+show_downloads: true
+theme: jekyll-theme-minimal
