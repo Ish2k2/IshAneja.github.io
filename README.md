@@ -1,4 +1,4 @@
-#Ish Aneja
+# Ish Aneja
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
